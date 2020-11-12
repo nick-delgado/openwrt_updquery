@@ -6,13 +6,13 @@ Obviously, Tasker is required but on Android that should be a "duh"...I think al
 
 The JS code need to be copied from the **javascriptlet.js** file to the code section inside the Tasker task.
 
-** NOTE: ** I'll probably create and export a Tasker profile later to share but for now I'm just working on the JS code. 
+**NOTE:** I'll probably create and export a Tasker profile later to share but for now I'm just working on the JS code. 
 
 I used browserify+tinyify node modules to create that javascriptlet file. 
 
 The code to run to build the javascriptlet file is: 
 
-'''
+```
 $ browserify -p tinyify index.js -o javascriptlet.js
-'''
+```
 
