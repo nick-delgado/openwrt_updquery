@@ -1,0 +1,18 @@
+{
+  "name": "openwrt_updquery",
+  "version": "1.0.0",
+  "description": "OpenWrt Autoupdate Result Query",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openwrt"
+  ],
+  "author": "Nick Delgado",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tinyify": "^3.0.0"
+  }
+}
