@@ -13,7 +13,7 @@ const options = {
 const req = https.request(options, res => {
 	res.on('data', d => {
 		lines_array = String(d).split("\n")
-		console.log(lines_array[lines_array.length - 2])
+		flash(lines_array[lines_array.length - 2])
 	})
 })
 
